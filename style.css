@@ -1,0 +1,58 @@
+body{
+    background-image: url("./resources/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ul1{
+    display: flex;
+    list-style: none;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li{
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+li:hover{
+    color: blueviolet;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: aqua;
+    clip-path: polygon(100% 0,93% 50%,100% 99%, 0 100%,7% 50%, 0% 0%);
+}
+.div1{
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+i{
+    color:white;
+}
+i:hover{
+    color: blueviolet;
+}
+.div2 div img{
+    width: 10rem;
+
+}
+.div2 div {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+button{
+    border-radius: 50px;
+}
+button:hover{
+    color: blueviolet;
+}
